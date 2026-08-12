@@ -1,0 +1,62 @@
+:root {
+  /* Vintage Red Signage Theme */
+  --valsangone-bg: #F5F1E8; /* warm cream */
+  --valsangone-text: #1A1A1A;
+  --valsangone-primary: #8B2C2C; /* deep vintage red */
+  --valsangone-accent: #C2A46D; /* muted gold */
+  
+  --valsangone-border: rgba(139, 44, 44, 0.2);
+  --valsangone-primary-hover: #722323;
+
+  --valsangone-font-heading: var(--valsangone-font-heading), serif;
+  --valsangone-font-body: var(--valsangone-font-body), sans-serif;
+  
+  --valsangone-border-radius: 4px;
+}
+
+body {
+  background-color: var(--valsangone-bg);
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  color: var(--valsangone-text);
+  font-family: var(--valsangone-font-body);
+}
+
+.heading-serif {
+  font-family: var(--valsangone-font-heading);
+}
+
+.font-body {
+  font-family: var(--valsangone-font-body);
+}
+
+/* Subtle decorative border inspired by traditional signage */
+.vintage-border {
+  border: 1px solid var(--valsangone-border);
+  padding: 4px;
+  position: relative;
+}
+
+.vintage-border::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  border: 1px solid var(--valsangone-border);
+  pointer-events: none;
+}
+
+/* Utilities for Tailwind integration */
+.bg-valsangone-bg { background-color: var(--valsangone-bg); }
+.text-valsangone-text { color: var(--valsangone-text); }
+.bg-valsangone-primary { background-color: var(--valsangone-primary); }
+.text-valsangone-primary { color: var(--valsangone-primary); }
+.bg-valsangone-accent { background-color: var(--valsangone-accent); }
+.text-valsangone-accent { color: var(--valsangone-accent); }
+.border-valsangone-border { border-color: var(--valsangone-border); }
+
+/* Linha decorativa usada nas seções do site */
+.vintage-decoration-line {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAyMCAxMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMCAwbDEwIDEwbDEwLTEwIiBzdHJva2U9IiM4QjJDMkMiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIvPjwvc3ZnPg==");
+}

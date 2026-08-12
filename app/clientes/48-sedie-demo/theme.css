@@ -1,0 +1,72 @@
+.sedie-theme {
+  font-family: 'Lato', sans-serif;
+  color-scheme: light;
+}
+
+.sedie-theme h1,
+.sedie-theme h2,
+.sedie-theme h3,
+.sedie-theme h4,
+.sedie-theme h5,
+.sedie-theme h6,
+.sedie-theme .font-serif-custom {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Subtle grain noise to give a rustic yet refined feel */
+.bg-grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+}
+
+/* Warm, wine-red button variant */
+.btn-primary-sedie {
+  background-color: #7A1C1C;
+  color: #F5F1E8;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: transform 0.2s, box-shadow 0.2s;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary-sedie:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.btn-primary-sedie:focus-visible {
+  box-shadow: 0 0 0 4px rgba(122, 28, 28, 0.5);
+}
+
+.btn-secondary-sedie {
+  background-color: transparent;
+  color: #3E2C23;
+  border: 2px solid #3E2C23;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  outline: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-secondary-sedie:hover {
+  background-color: #3E2C23;
+  color: #F5F1E8;
+}
+
+.btn-secondary-sedie:focus-visible {
+  box-shadow: 0 0 0 4px rgba(62, 44, 35, 0.5);
+}
+
+html {
+  scroll-behavior: smooth;
+}

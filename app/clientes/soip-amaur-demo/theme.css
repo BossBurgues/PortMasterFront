@@ -1,0 +1,96 @@
+/* Soip Amaur - Global Styles */
+.soip-theme {
+  font-family: 'Outfit', 'Inter', sans-serif;
+  color: #1A1A1A;
+  background-color: #FFFFFF;
+}
+
+.soip-theme ::selection {
+  background: #00989F;
+  color: white;
+}
+
+.soip-theme h1, 
+.soip-theme h2, 
+.soip-theme h3, 
+.soip-theme h4, 
+.soip-theme h5, 
+.soip-theme h6 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.soip-theme p, 
+.soip-theme span, 
+.soip-theme a, 
+.soip-theme button {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Rounded, Modern Utilities */
+.soip-rounded {
+  border-radius: 24px;
+}
+
+.soip-btn {
+  background-color: #00989F;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.soip-btn:hover {
+  background-color: #007a80;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(0, 152, 159, 0.4);
+}
+
+.soip-btn-outline {
+  background-color: transparent;
+  color: #1A1A1A;
+  padding: 1rem 2rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  border: 2px solid #1A1A1A;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.soip-btn-outline:hover {
+  background-color: #1A1A1A;
+  color: white;
+}
+
+/* Animations */
+@keyframes soipFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-soip-fade-up {
+  animation: soipFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.card-hover {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px -10px rgba(0,0,0,0.08);
+}

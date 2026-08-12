@@ -1,0 +1,61 @@
+.piazzetta-theme {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Base button structure ensuring focus-visible outlines */
+.btn-piazzetta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 9999px; /* Pill shape for modern look */
+  padding: 0.875rem 1.75rem;
+  transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-piazzetta {
+    transition: none;
+  }
+}
+
+.btn-piazzetta:focus-visible {
+  box-shadow: 0 0 0 4px rgba(103, 133, 97, 0.4); /* #678561 with opacity */
+}
+
+/* Primary Green Button */
+.btn-primary {
+  background-color: #678561;
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background-color: #556E50;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(103, 133, 97, 0.3);
+}
+
+/* Secondary Button (Outline) */
+.btn-secondary {
+  background-color: #F5F5F5;
+  color: #1A1A1A;
+}
+
+.btn-secondary:hover {
+  background-color: #E5E5E5;
+  transform: translateY(-2px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+.piazzetta-theme { color-scheme: light; } 

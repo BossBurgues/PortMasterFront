@@ -1,0 +1,90 @@
+@reference "../../globals.css";
+
+@layer base {
+  :root {
+    --fratte-bg: #FAFAFA;
+    --fratte-surface: #FFFFFF;
+    --fratte-primary: #9F1239; /* Tailwind Rose-700 for a modern wine red */
+    --fratte-text: #171717; /* Neutral-900 */
+    --fratte-text-muted: #737373; /* Neutral-500 */
+    --fratte-border: #E5E5E5;
+    
+    --fratte-font-heading: var(--fratte-font-heading), system-ui;
+    --fratte-font-body: var(--fratte-font-body), system-ui;
+  }
+
+  body {
+    background-color: var(--fratte-bg);
+    color: var(--fratte-text);
+    font-family: var(--fratte-font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Web Guidelines: focus-visible standards */
+  *:focus-visible {
+    outline: 2px solid var(--fratte-primary);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Modern Web Guidelines buttons */
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-(--fratte-primary) text-white font-medium px-6 py-3
+           transition-colors duration-200 hover:bg-rose-800 active:bg-rose-900
+           focus:outline-none focus-visible:ring-2 focus-visible:ring-(--fratte-primary) focus-visible:ring-offset-2 touch-manipulation;
+  }
+  
+  .btn-outline {
+    @apply inline-flex items-center justify-center rounded-full border border-(--fratte-primary) text-(--fratte-primary) bg-transparent font-medium px-6 py-3
+           transition-colors duration-200 hover:bg-rose-50 active:bg-rose-100
+           focus:outline-none focus-visible:ring-2 focus-visible:ring-(--fratte-primary) focus-visible:ring-offset-2 touch-manipulation;
+  }
+
+  .btn-icon {
+    @apply inline-flex items-center justify-center rounded-full text-(--fratte-text-muted) transition-colors duration-200 hover:text-(--fratte-text) hover:bg-neutral-100 p-2
+           focus:outline-none focus-visible:ring-2 focus-visible:ring-(--fratte-primary) focus-visible:ring-offset-2 touch-manipulation;
+  }
+
+  /* Typography */
+  .heading-modern {
+    font-family: var(--fratte-font-heading);
+    text-wrap: balance;
+    @apply tracking-tight;
+  }
+
+  /* Semantic inputs */
+  .modern-input {
+    @apply w-full rounded-xl border border-(--fratte-border) bg-white px-4 py-3 text-(--fratte-text)
+           transition-colors duration-200 placeholder:text-neutral-400
+           focus:border-(--fratte-primary) focus:outline-none focus-visible:ring-1 focus-visible:ring-(--fratte-primary);
+  }
+
+  .modern-label {
+    @apply block text-sm font-medium text-(--fratte-text) mb-1.5 cursor-pointer;
+  }
+
+  /* Tag */
+  .modern-tag {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold;
+  }
+  .tag-popular {
+    @apply bg-rose-100 text-rose-700;
+  }
+  .tag-traditional {
+    @apply bg-neutral-100 text-neutral-700;
+  }
+  .tag-chef {
+    @apply bg-emerald-100 text-emerald-700;
+  }
+}
+
+/* Hide scrollbar structurally */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

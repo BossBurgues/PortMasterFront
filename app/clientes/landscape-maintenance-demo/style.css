@@ -1,0 +1,22 @@
+/* Estilos locais para a demo Landscape Maintenance UK */
+:root {
+    --lm-primaria: #9D6CA3;
+    --lm-secundaria: #212121;
+    --lm-fundo: #F5F5F5;
+}
+
+.bg-lm-primaria {
+    background-color: var(--lm-primaria);
+}
+
+.text-lm-primaria {
+    color: var(--lm-primaria);
+}
+
+.bg-lm-secundaria {
+    background-color: var(--lm-secundaria);
+}
+
+.text-lm-secundaria {
+    color: var(--lm-secundaria);
+}

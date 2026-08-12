@@ -1,0 +1,79 @@
+
+
+@layer base {
+  :root {
+    /* ArkGeo 3.0 - Blue Institutional Modern */
+    --ark-blue-dark: 221 39% 11%;    /* #111827 */
+    --ark-blue-primary: 221 83% 53%; /* #3b82f6 */
+    --ark-blue-accent: 199 89% 48%;  /* #0ea5e9 */
+    
+    --ark-gray-bg: 210 40% 98%;      /* #f8fafc */
+    --ark-gray-text: 215 16% 47%;    /* #64748b */
+    --ark-white: 0 0% 100%;          /* #ffffff */
+
+    /* Integration with standard layout variables */
+    --background: var(--ark-gray-bg);
+    --foreground: var(--ark-blue-dark);
+    
+    --primary: var(--ark-blue-primary);
+    --primary-foreground: var(--ark-white);
+    
+    --secondary: var(--ark-blue-accent);
+    --secondary-foreground: var(--ark-white);
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: var(--ark-gray-text);
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: var(--ark-blue-primary);
+
+    --radius: 0.375rem;
+  }
+
+  .arkgeo-3-theme {
+    font-family: 'Inter', sans-serif;
+    color: hsl(var(--ark-blue-dark));
+    background-color: hsl(var(--ark-gray-bg));
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Reset layout editorial anterior */
+  .arkgeo-3-theme h1, 
+  .arkgeo-3-theme h2, 
+  .arkgeo-3-theme h3, 
+  .arkgeo-3-theme h4 {
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: hsl(var(--ark-blue-dark));
+  }
+
+  /* Navegação limpa e moderna */
+  .ark-nav-link {
+    font-size: 0.875rem; /* text-sm */
+    line-height: 1.25rem;
+    font-weight: 500;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
+    color: hsla(var(--ark-blue-dark) / 0.7);
+  }
+  .ark-nav-link:hover, .ark-nav-link.active {
+    color: hsl(var(--ark-blue-primary));
+  }
+
+  /* Cards estáticos e sólidos */
+  .ark-card {
+    background-color: hsl(var(--ark-white));
+    border: 1px solid var(--color-slate-200, #e2e8f0);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    transition-property: box-shadow;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+  }
+  .ark-card:hover {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  }
+}

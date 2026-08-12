@@ -1,0 +1,95 @@
+:root {
+  /* Ristorante Da Mauro - Editorial Heritage Theme */
+  --mauro-bg: #fdf9f0; /* Warm paper tone */
+  --mauro-surface-1: #f1eee5; /* Layered paper effect 1 */
+  --mauro-surface-2: #e6e2d9; /* Layered paper effect 2 */
+  
+  --mauro-primary: #8C0D15; /* Vinho mais "vivo" para destacar no papel creme */
+  --mauro-secondary: #3D3028; /* Espresso profundo (quase preto) para legibilidade editorial */
+  --mauro-accent: #1f2e00; 
+  
+  --mauro-text-dark: #0F0F0F; /* Máximo contraste para títulos */
+  --mauro-text-light: #fdf9f0;
+
+  --mauro-font-heading: var(--mauro-font-heading), serif;
+  --mauro-font-body: var(--mauro-font-body), sans-serif;
+}
+
+body {
+  background-color: var(--mauro-bg);
+  color: var(--mauro-secondary);
+  font-family: var(--mauro-font-body);
+  /* Textura de papel muito sutil / Grain texture */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E");
+}
+
+/* Tipografia Editorial */
+.heading-serif {
+  font-family: var(--mauro-font-heading);
+}
+
+.heading-secondary {
+  font-family: var(--mauro-font-heading);
+}
+
+.font-body {
+  font-family: var(--mauro-font-body);
+}
+
+/* Botões - Premium, cantos levemente afiados */
+.mauro-btn {
+  background-color: var(--mauro-primary);
+  color: var(--mauro-text-light);
+  padding: 1rem 2.5rem;
+  border-radius: 2px; /* Slightly sharp */
+  font-family: var(--mauro-font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.mauro-btn:hover {
+  background-color: #4a0207;
+}
+
+.mauro-btn-outline {
+  background-color: transparent;
+  color: var(--mauro-primary);
+  border: 1px solid var(--mauro-primary);
+}
+
+.mauro-btn-outline:hover {
+  background-color: var(--mauro-primary);
+  color: var(--mauro-text-light);
+}
+
+/* Superfícies de papel para separar conteúdo sem bordas */
+.paper-surface-1 {
+  background-color: var(--mauro-surface-1);
+}
+
+.paper-surface-2 {
+  background-color: var(--mauro-surface-2);
+}
+
+/* Sombra ambiente ultra suave, sem bordas marcadas */
+.soft-ambient-shadow {
+  box-shadow: 0 20px 40px -10px rgba(112, 90, 79, 0.08); /* Uso do espresso brown para sombra quente */
+}
+
+/* Hero Gradient Overlay */
+.hero-wine-gradient {
+  /* Gradiente mais linear e denso para garantir contraste total das letras brancas */
+  background: linear-gradient(180deg, rgba(15, 5, 5, 0.85) 0%, rgba(128, 10, 13, 0.5) 50%, rgba(10, 5, 5, 0.9) 100%);
+}
+
+/* Ajustes utilitários */
+.text-balance {
+  text-wrap: balance;
+}

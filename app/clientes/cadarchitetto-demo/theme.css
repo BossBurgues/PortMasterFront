@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  /* Paleta Rústica e Acolhedora Refinada (Salento Premium) */
+  --cad-fundo: #FAFAFA;      /* Branco suave, mais limpo e moderno */
+  --cad-primaria: #9D5415;   /* Terracota mais rica e saturada */
+  --cad-secundaria: #3A4521; /* Verde Oliva profundo, mais elegância */
+  --cad-texto: #0F1A07;      /* Verde quase preto para leitura perfeita */
+  --cad-destaque: #C28E51;   /* Areia dourada, toque de luxo */
+  
+  --font-inter: 'Inter', sans-serif;
+  --font-modern: 'Outfit', sans-serif; /* Substituindo a Playfair Display por Outfit */
+}
+
+.tema-cadarchitetto {
+  font-family: var(--font-inter);
+  color: var(--cad-texto);
+  background-color: var(--cad-fundo);
+  scroll-behavior: smooth;
+}
+
+.cad-container {
+  max-width: 1100px; /* Mais estreito para um feeling de blog/pessoal */
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.titulo-rustico {
+  font-family: var(--font-modern);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--cad-texto);
+}
+
+.subtitulo-rustico {
+  font-family: var(--font-modern);
+  font-weight: 600;
+  color: var(--cad-primaria);
+}
+
+.botao-simples {
+  background-color: var(--cad-primaria);
+  color: white;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-family: var(--font-modern);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.botao-simples:hover {
+  background-color: var(--cad-destaque);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.card-quarto {
+  background: white;
+  border: 1px solid #F0F0F0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.card-quarto:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.tag-local {
+  display: inline-block;
+  background-color: var(--cad-destaque);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+/* Utilitários de Design (Vercel Guidelines) */
+.foco-visivel:focus-visible {
+  outline: 2px solid var(--cad-primaria);
+  outline-offset: 2px;
+}

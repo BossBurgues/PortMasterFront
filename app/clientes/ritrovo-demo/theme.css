@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  .rest-theme {
+    --background: oklch(0.978 0.016 88.6); /* #fdf9f0 */
+    --foreground: oklch(0.184 0.02 96.6); /* #1c1c16 */
+
+    --card: oklch(0.945 0.014 88.6); /* #f1eee5 */
+    --card-foreground: oklch(0.184 0.02 96.6);
+
+    --popover: oklch(0.978 0.016 88.6);
+    --popover-foreground: oklch(0.184 0.02 96.6);
+
+    --primary: oklch(0.298 0.138 23.3); /* #5b0309 */
+    --primary-foreground: oklch(1 0 0); /* #ffffff */
+
+    --secondary: oklch(0.463 0.04 53.6); /* #705a4f */
+    --secondary-foreground: oklch(1 0 0);
+
+    --muted: oklch(0.92 0.01 88.6); /* #e6e2d9 */
+    --muted-foreground: oklch(0.4 0.02 96);
+
+    --accent: oklch(0.92 0.01 88.6); /* #e6e2d9 */
+    --accent-foreground: oklch(0.184 0.02 96.6);
+
+    --destructive: oklch(0.6 0.2 25);
+    --destructive-foreground: oklch(1 0 0);
+
+    --border: oklch(0.812 0.038 23.3); /* #ddc0bd */
+    --input: oklch(0.812 0.038 23.3);
+    --ring: oklch(0.298 0.138 23.3);
+
+    /* Variables specific to design */
+    --surface-lowest: oklch(1 0 0);
+    --surface-highest: oklch(0.92 0.01 88.6);
+    --color-tertiary: oklch(0.264 0.076 118.4); /* #1f2e00 */
+
+    font-family: var(--font-sans);
+  }
+}
