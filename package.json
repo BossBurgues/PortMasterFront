@@ -6,6 +6,9 @@
   "license": "UNLICENSED",
   "type": "module",
   "private": true,
+  "pnpm": {
+    "ignoredBuiltDependencies": ["msw", "sharp", "unrs-resolver"]
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
