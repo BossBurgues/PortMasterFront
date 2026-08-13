@@ -11,14 +11,14 @@ export default function Galeria87() {
     { src: "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&q=80&w=1000", alt: "Modern Garden Architecture" },
     { src: "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&q=80&w=1000", alt: "Premium Fence Installation" },
     { src: "https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?auto=format&fit=crop&q=80&w=1000", alt: "Luxury Garden Shelter" },
-    { src: "https://images.unsplash.com/photo-1589923188900-85dae4753549?auto=format&fit=crop&q=80&w=1000", alt: "Artisanal Stone Work" },
-    { src: "https://images.unsplash.com/photo-1599110906805-a8669e39ce59?auto=format&fit=crop&q=80&w=1000", alt: "Contemporary Patio Design" },
+    { src: "https://images.unsplash.com/photo-1597211684565-dca64d72bdfe?auto=format&fit=crop&q=80&w=1000", alt: "Contemporary Planters and Stonework" },
+    { src: "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&q=80&w=1000", alt: "Contemporary Patio Design" },
     { src: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&q=80&w=1000", alt: "Lush Botanical Planting" },
     { src: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=1000", alt: "Modern Garden Lighting" },
-    { src: "https://images.unsplash.com/photo-1595181163481-99577c3a078d?auto=format&fit=crop&q=80&w=1000", alt: "Decorative Paving Detail" },
+    { src: "https://images.unsplash.com/photo-1584479898061-15742e14f50d?auto=format&fit=crop&q=80&w=1000", alt: "Raised Bed Kitchen Garden" },
     { src: "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&q=80&w=1000", alt: "Sleek Backyard Oasis" },
     { src: "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&q=80&w=1000", alt: "Seasonal Flower Borders" },
-    { src: "https://images.unsplash.com/photo-1590059533221-3965d13ba977?auto=format&fit=crop&q=80&w=1000", alt: "Timber Decking and Integration" },
+    { src: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&q=80&w=1000", alt: "Timber Decking and Integration" },
     { src: "https://images.unsplash.com/photo-1621886292650-520f76c747d6?auto=format&fit=crop&q=80&w=1000", alt: "Formal Garden Layout" },
   ];
 

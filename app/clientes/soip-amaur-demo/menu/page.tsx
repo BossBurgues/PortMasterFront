@@ -19,16 +19,16 @@ const MENU_DATA = [
     category: "antipasti",
     items: [
       { id: 5, name: "Crocchetta di Patate Artigianale", desc: "Cuore filante, pepe, parmigiano", price: 3.0, image: "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=800&auto=format&fit=crop" },
-      { id: 6, name: "Montanarina Classica", desc: "Pomodoro, parmigiano, basilico fritto", price: 4.0, image: "https://images.unsplash.com/photo-1541745537411-b8046f8d8f70?q=80&w=800&auto=format&fit=crop" },
+      { id: 6, name: "Montanarina Classica", desc: "Pomodoro, parmigiano, basilico fritto", price: 4.0, image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop" },
       { id: 7, name: "Frittatina di Pasta", desc: "Bucatini, besciamella, piselli, carne", price: 4.5, image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=800&auto=format&fit=crop" },
     ]
   },
   {
     category: "drinks",
     items: [
-      { id: 8, name: "Soip Spritz", desc: "Aperol, prosecco, soda, twist arancia", price: 8.0, image: "https://images.unsplash.com/photo-1560508180-03f285f67eed?q=80&w=800&auto=format&fit=crop" },
+      { id: 8, name: "Soip Spritz", desc: "Aperol, prosecco, soda, twist arancia", price: 8.0, image: "https://images.unsplash.com/photo-1560512823-829485b8bf24?q=80&w=800&auto=format&fit=crop" },
       { id: 9, name: "Negroni Sbagliato", desc: "Campari, vermouth rosso, prosecco", price: 9.0, image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop" },
-      { id: 10, name: "Birra Artigianale IPA", desc: "Alla spina, 33cl", price: 6.0, image: "https://images.unsplash.com/photo-1566816043818-a6d123d6874a?q=80&w=800&auto=format&fit=crop" },
+      { id: 10, name: "Birra Artigianale IPA", desc: "Alla spina, 33cl", price: 6.0, image: "https://images.unsplash.com/photo-1608270586620-248524c67de9?q=80&w=800&auto=format&fit=crop" },
     ]
   },
   {

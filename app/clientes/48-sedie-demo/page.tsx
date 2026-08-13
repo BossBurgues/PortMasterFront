@@ -157,7 +157,7 @@ export default function SedieLandingPage() {
             {/* Dish 2: Seafood */}
             <div className="group overflow-hidden rounded-lg bg-[#F5F1E8]/5 hover:bg-[#F5F1E8]/10 transition-colors">
               <div className="relative h-64 w-full">
-                <Image src="https://images.unsplash.com/photo-1559981440-621e25e1fe63?q=80&w=1956&auto=format&fit=crop" alt="Pesce Fresco" fill className="object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                <Image src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?q=80&w=1956&auto=format&fit=crop" alt="Pesce Fresco" fill className="object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
               </div>
               <div className="p-6">
                 <h4 className="font-serif-custom text-2xl mb-2">{t("menu.seafood")}</h4>

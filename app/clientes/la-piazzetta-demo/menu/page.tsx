@@ -53,7 +53,7 @@ const menuItems = [
     id: "b2",
     category: "drinks",
     price: 4.00,
-    image: "https://images.unsplash.com/photo-1614316315516-778f24458f3f?w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=600&auto=format&fit=crop",
     it: { name: "Birra Bionda", desc: "Birra alla spina media (40cl)." },
     en: { name: "Blonde Beer", desc: "Medium draft beer (40cl)." }
   },

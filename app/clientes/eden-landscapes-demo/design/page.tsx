@@ -90,7 +90,7 @@ export default function GardenDesign87() {
             </div>
             <div className="relative aspect-video lg:aspect-square rounded-3xl overflow-hidden shadow-2xl skew-y-2">
               <Image 
-                src="https://images.unsplash.com/photo-1599110906805-a8669e39ce59?auto=format&fit=crop&q=80&w=1500" 
+                src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&q=80&w=1500" 
                 alt="Planned Garden Result" 
                 fill 
                 className="object-cover"

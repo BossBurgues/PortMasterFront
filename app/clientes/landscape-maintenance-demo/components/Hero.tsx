@@ -23,12 +23,12 @@ export default function Hero() {
       subtitle: "Professional care for your business's outdoor spaces with dedication and expertise.",
     },
     {
-      image: "https://images.unsplash.com/photo-1558904541-efa8c1965f1e?auto=format&fit=crop&q=80&w=2070",
+      image: "https://images.unsplash.com/photo-1571055107559-3e67626fa8be?auto=format&fit=crop&q=80&w=2070",
       title: "Your Garden, Our Passion",
       subtitle: "Complete residential services to keep your home grounds looking impeccable year-round.",
     },
     {
-      image: "https://images.unsplash.com/photo-1590483734747-3944723b3074?auto=format&fit=crop&q=80&w=1740",
+      image: "https://images.unsplash.com/photo-1597211684565-dca64d72bdfe?auto=format&fit=crop&q=80&w=1740",
       title: "Hardscaping & Fencing Solutions",
       subtitle: "Transforming outdoor spaces into functional and aesthetic environments.",
     },

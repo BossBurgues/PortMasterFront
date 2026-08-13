@@ -37,7 +37,7 @@ const menuItems = [
     id: "s1",
     category: "seafood",
     price: 22.00,
-    image: "https://images.unsplash.com/photo-1559981440-621e25e1fe63?w=500&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=500&auto=format&fit=crop",
     it: { name: "Polpo Arrostito", desc: "Polpo rosticciato su crema di patate allo zafferano e crumble di olive nere." },
     en: { name: "Roasted Octopus", desc: "Roasted octopus on saffron potato cream with black olive crumble." }
   },

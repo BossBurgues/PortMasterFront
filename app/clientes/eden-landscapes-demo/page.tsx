@@ -55,7 +55,7 @@ export default function EdenHome87() {
         <div className="order-2 lg:order-1">
           <div className="relative aspect-square md:aspect-video rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="https://images.unsplash.com/photo-1589923188900-85dae4753549?auto=format&fit=crop&q=80&w=1500"
+              src="https://images.unsplash.com/photo-1597211684565-dca64d72bdfe?auto=format&fit=crop&q=80&w=1500"
               alt="Artisanal landscaping detail"
               fill
               className="object-cover"
@@ -113,7 +113,7 @@ export default function EdenHome87() {
               description="Full consultancy and detailed plans for your ideal outdoor living space."
             />
             <ServiceCard 
-              image="https://images.unsplash.com/photo-1599110906805-a8669e39ce59?auto=format&fit=crop&q=80&w=800"
+              image="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&q=80&w=800"
               title="Project Gallery"
               description="Get inspired by our collection of completed works across the region."
             />
