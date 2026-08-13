@@ -14,12 +14,12 @@ export default function Galeria87() {
     { src: "https://images.unsplash.com/photo-1597211684565-dca64d72bdfe?auto=format&fit=crop&q=80&w=1000", alt: "Contemporary Planters and Stonework" },
     { src: "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&q=80&w=1000", alt: "Contemporary Patio Design" },
     { src: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&q=80&w=1000", alt: "Lush Botanical Planting" },
-    { src: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=1000", alt: "Modern Garden Lighting" },
+    { src: "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?auto=format&fit=crop&q=80&w=1000", alt: "Modern Poolside Landscape" },
     { src: "https://images.unsplash.com/photo-1584479898061-15742e14f50d?auto=format&fit=crop&q=80&w=1000", alt: "Raised Bed Kitchen Garden" },
     { src: "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&q=80&w=1000", alt: "Sleek Backyard Oasis" },
     { src: "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&q=80&w=1000", alt: "Seasonal Flower Borders" },
     { src: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&q=80&w=1000", alt: "Timber Decking and Integration" },
-    { src: "https://images.unsplash.com/photo-1621886292650-520f76c747d6?auto=format&fit=crop&q=80&w=1000", alt: "Formal Garden Layout" },
+    { src: "https://images.unsplash.com/photo-1523528283115-9bf9b1699245?auto=format&fit=crop&q=80&w=1000", alt: "Spring Blossom Garden" },
   ];
 
   return (
